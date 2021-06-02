@@ -1,0 +1,80 @@
+body {
+    background-color: lightgrey;
+}
+
+.form-container {
+    position: relative;
+    margin-top: 30px;
+    background-color: white;
+    height: auto;
+    width: 500px;
+    left: 34%;
+    border-radius: 30px;
+    border: darkgrey solid 2px;
+    padding-bottom: 30px;
+}
+
+.form-container Button {
+    position: relative;
+    top: 3em;
+}
+
+.form-container p {
+    position: relative;
+    top: 36px;
+}
+
+.email {
+    position: relative;
+}
+
+.grid-container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    max-width: 830px;
+    grid-template-columns: auto auto auto;
+}
+
+.post-form-container {
+    position: absolute;
+    height: auto;
+    width: 250px;
+    left: 34%;
+    margin-left: 40%;
+    border-radius: 30px;
+    background-color: white;
+    border: darkgrey solid 2px;
+    padding-bottom: 30px;
+
+}
+
+.post-image {
+    padding: 20px 10px 20px 12px;
+}
+
+@media only screen and (max-width: 1150px) {
+  .post-form-container {
+      position: relative;
+      margin-top: 0px;
+      margin-left: 0px;
+      
+  }
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .grid-container {
+	grid-template-columns: auto;
+    }
+
+    Card {
+	padding: 20px 20px 20px 20px;
+    }
+}
+
+
