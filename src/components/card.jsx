@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import data from "../data/db.json"
 import { makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
 import Card from '@material-ui/core/Card';

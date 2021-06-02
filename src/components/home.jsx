@@ -1,6 +1,5 @@
 import React, { useState ,useEffect } from "react";
 import Card from "./card.jsx"
-import data from "../data/db.json"
 import Post from "./post.jsx"
 import axios from "axios";
 import { makeStyles } from '@material-ui/core/styles';
