@@ -48,7 +48,7 @@ export default function FormPropsTextFields() {
 	}
 
 	if(sendRequest == true && passwordEqual == true){
-	    axios.post("https://listiee-backend.herokuapp.com/signup", object, { headers }).then( (res) => {
+	    axios.post("https://internship-task-backend.onrender.com/signup", object, { headers }).then( (res) => {
 	    
 		localStorage.setItem("token", res.data.token);
 

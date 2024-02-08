@@ -118,7 +118,7 @@ export default function FormPropsTextFields() {
 	    // because the request is executing twice before the state is set.
 	    setSendRequest(false);
 	    setImageStatus("");
-	    axios.post("https://listiee-backend.herokuapp.com/posts", object, { headers }).then( (res) => {
+	    axios.post("https://internship-task-backend.onrender.com/posts", object, { headers }).then( (res) => {
 		console.log(res.data);
 		setPostError(false);
 		setObject({

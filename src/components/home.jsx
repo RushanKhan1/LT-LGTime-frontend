@@ -34,7 +34,7 @@ function Home(props) {
 	if (props.deleteToken == true) { localStorage.removeItem("token") }
 
 	if(getPosts == true){
-	axios.get("https://listiee-backend.herokuapp.com/posts").then( (res) => {
+	axios.get("https://internship-task-backend.onrender.com/posts").then( (res) => {
 	    setPosts(res.data)
 	    setLoading(false);
 	} )
@@ -75,7 +75,7 @@ function Home(props) {
 
 	setId(_id);
 	setDelete(true);
-	let Url ="https://listiee-backend.herokuapp.com/posts/" + _id;
+	let Url ="https://internship-task-backend.onrender.com/posts/" + _id;
 	console.log(Url);
 	setUrl(Url);
 	
